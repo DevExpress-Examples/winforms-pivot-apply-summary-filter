@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XtraPivotGrid_ApplySummaryFilter", "XtraPivotGrid_ApplySummaryFilter\XtraPivotGrid_ApplySummaryFilter.vbproj", "{C07505AF-FED5-485D-AD51-B0C77743ED0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|x64.ActiveCfg = Debug|x64
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|x64.Build.0 = Debug|x64
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|x86.ActiveCfg = Debug|x86
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Debug|x86.Build.0 = Debug|x86
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|x64.ActiveCfg = Release|x64
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|x64.Build.0 = Release|x64
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|x86.ActiveCfg = Release|x86
+		{C07505AF-FED5-485D-AD51-B0C77743ED0C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
