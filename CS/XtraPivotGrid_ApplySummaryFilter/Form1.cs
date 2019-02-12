@@ -7,10 +7,10 @@ namespace XtraPivotGrid_ApplySummaryFilter {
     public partial class Form1 : XtraForm {
         public Form1() {
             InitializeComponent();
+            excelDataSource1.FileName = "SalesPerson.xlsx";
+            excelDataSource1.Fill();
         }
         private void Form1_Load(object sender, EventArgs e) {
-            this.salesPersonTableAdapter.Fill(this.nwindDataSet.SalesPerson);
-
             pivotGridControl1.BeginUpdate();
             try {
                 // Set the minimum displayed summary value.

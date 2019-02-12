@@ -9,10 +9,10 @@ Namespace XtraPivotGrid_ApplySummaryFilter
 
 		Public Sub New()
 			InitializeComponent()
+			excelDataSource1.FileName = "SalesPerson.xlsx"
+			excelDataSource1.Fill()
 		End Sub
 		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-			Me.salesPersonTableAdapter.Fill(Me.nwindDataSet.SalesPerson)
-
 			pivotGridControl1.BeginUpdate()
 			Try
 				' Set the minimum displayed summary value.
