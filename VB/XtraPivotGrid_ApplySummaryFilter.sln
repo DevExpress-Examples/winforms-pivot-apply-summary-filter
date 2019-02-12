@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XtraPivotGrid_ApplySummaryFilter", "XtraPivotGrid_ApplySummaryFilter\XtraPivotGrid_ApplySummaryFilter.vbproj", "{C07505AF-FED5-485D-AD51-B0C77743ED0C}"
 EndProject
 Global
@@ -27,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E626F75-2F34-4537-929A-23524B8F011F}
 	EndGlobalSection
 EndGlobal

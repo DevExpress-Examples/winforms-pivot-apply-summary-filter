@@ -1,42 +1,34 @@
 ﻿using System;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 using DevExpress.XtraPivotGrid;
 
 namespace XtraPivotGrid_ApplySummaryFilter {
-    public partial class Form1 : Form {
+    public partial class Form1 : XtraForm {
         public Form1() {
             InitializeComponent();
         }
         private void Form1_Load(object sender, EventArgs e) {
-
-            // Binds the pivot grid to data.
             this.salesPersonTableAdapter.Fill(this.nwindDataSet.SalesPerson);
 
-            // Locks the control to prevent excessive updates when multiple properties are modified.
             pivotGridControl1.BeginUpdate();
             try {
-
-                // Sets the minimum summary value to be displayed.
+                // Set the minimum displayed summary value.
                 fieldExtendedPrice.SummaryFilter.StartValue = 500;
 
-                // Sets the maximum summary value to be displayed.
+                // Set the maximum displayed summary value.
                 fieldExtendedPrice.SummaryFilter.EndValue = 2500;
 
-                // Specifies that summary filtering should be applied
-                // to a particular aggregation level.
+                // Apply summary filter to the aggregation level specified by the RowField and ColumnField values.
                 fieldExtendedPrice.SummaryFilter.Mode = PivotSummaryFilterMode.SpecificLevel;
 
-                // Sets the row used to identify an aggregation level
-                // to which the filtering is applied.
+                // Set the row that identifies the filtered aggregation level.
                 fieldExtendedPrice.SummaryFilter.RowField = fieldProductName;
 
-                // Sets the column used to identify an aggregation level
-                // to which the filtering is applied.
+                // Set the row that identifies the filtered aggregation level.
                 fieldExtendedPrice.SummaryFilter.ColumnField = fieldCountry;
             }
             finally {
-
-                // Unlocks the control.
                 pivotGridControl1.EndUpdate();
             }
         }

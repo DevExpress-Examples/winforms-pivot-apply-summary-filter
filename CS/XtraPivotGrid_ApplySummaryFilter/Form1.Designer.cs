@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
+            this.salesPersonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nwindDataSet = new XtraPivotGrid_ApplySummaryFilter.nwindDataSet();
             this.fieldCountry = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldProductName = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldCategoryName = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldExtendedPrice = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldSalesPerson = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.salesPersonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nwindDataSet = new XtraPivotGrid_ApplySummaryFilter.nwindDataSet();
             this.salesPersonTableAdapter = new XtraPivotGrid_ApplySummaryFilter.nwindDataSetTableAdapters.SalesPersonTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesPersonBindingSource)).BeginInit();
@@ -57,6 +57,16 @@
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.Size = new System.Drawing.Size(750, 431);
             this.pivotGridControl1.TabIndex = 0;
+            // 
+            // salesPersonBindingSource
+            // 
+            this.salesPersonBindingSource.DataMember = "SalesPerson";
+            this.salesPersonBindingSource.DataSource = this.nwindDataSet;
+            // 
+            // nwindDataSet
+            // 
+            this.nwindDataSet.DataSetName = "nwindDataSet";
+            this.nwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // fieldCountry
             // 
@@ -98,16 +108,6 @@
             this.fieldSalesPerson.FieldName = "Sales Person";
             this.fieldSalesPerson.Name = "fieldSalesPerson";
             // 
-            // salesPersonBindingSource
-            // 
-            this.salesPersonBindingSource.DataMember = "SalesPerson";
-            this.salesPersonBindingSource.DataSource = this.nwindDataSet;
-            // 
-            // nwindDataSet
-            // 
-            this.nwindDataSet.DataSetName = "nwindDataSet";
-            this.nwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // salesPersonTableAdapter
             // 
             this.salesPersonTableAdapter.ClearBeforeFill = true;
@@ -119,7 +119,7 @@
             this.ClientSize = new System.Drawing.Size(750, 431);
             this.Controls.Add(this.pivotGridControl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Apply Summary Filter Example";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesPersonBindingSource)).EndInit();
