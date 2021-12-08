@@ -16,7 +16,7 @@ This example demonstrates how to apply a summary filter to a particular aggregat
 
 The PivotGridControl displays product sales by country. The summary filter is applied to country totals calculated for individual products to display values in the range from 500 to 2500. The filter applies to an aggregation level identified by the fieldProductName and fieldCountry fields.
 
-![screenshot](https://github.com/DevExpress-Examples/how-to-apply-summary-filter-e4390/blob/18.2.4%2B/images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 API in this example:
 
