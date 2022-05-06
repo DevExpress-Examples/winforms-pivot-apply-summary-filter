@@ -14,19 +14,19 @@ namespace XtraPivotGrid_ApplySummaryFilter {
             pivotGridControl1.BeginUpdate();
             try {
                 // Set the minimum displayed summary value.
-                fieldExtendedPrice.SummaryFilter.StartValue = 500;
+                fieldExtendedPrice1.SummaryFilter.StartValue = 500;
 
                 // Set the maximum displayed summary value.
-                fieldExtendedPrice.SummaryFilter.EndValue = 2500;
+                fieldExtendedPrice1.SummaryFilter.EndValue = 2500;
 
                 // Apply summary filter to the aggregation level specified by the RowField and ColumnField values.
-                fieldExtendedPrice.SummaryFilter.Mode = PivotSummaryFilterMode.SpecificLevel;
+                fieldExtendedPrice1.SummaryFilter.Mode = PivotSummaryFilterMode.SpecificLevel;
 
                 // Set the row that identifies the filtered aggregation level.
-                fieldExtendedPrice.SummaryFilter.RowField = fieldProductName;
+                fieldExtendedPrice1.SummaryFilter.RowField = fieldProductName1;
 
                 // Set the row that identifies the filtered aggregation level.
-                fieldExtendedPrice.SummaryFilter.ColumnField = fieldCountry;
+                fieldExtendedPrice1.SummaryFilter.ColumnField = fieldCountry1;
             }
             finally {
                 pivotGridControl1.EndUpdate();

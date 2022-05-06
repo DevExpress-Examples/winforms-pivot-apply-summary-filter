@@ -29,27 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo13 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo14 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo15 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo16 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo17 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo18 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo19 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo20 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo21 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo22 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo23 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo24 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings2 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
-            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions2 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings2);
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo1 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo2 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo3 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo4 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo5 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo6 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo7 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo8 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo9 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo10 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo11 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.FieldInfo fieldInfo12 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings1 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
+            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions1 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings1);
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding1 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding2 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding3 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding4 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
+            DevExpress.XtraPivotGrid.DataSourceColumnBinding dataSourceColumnBinding5 = new DevExpress.XtraPivotGrid.DataSourceColumnBinding();
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
-            this.fieldCountry = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.fieldProductName = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.fieldCategoryName = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.fieldExtendedPrice = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.fieldSalesPerson = new DevExpress.XtraPivotGrid.PivotGridField();
             this.excelDataSource1 = new DevExpress.DataAccess.Excel.ExcelDataSource();
+            this.fieldCountry1 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.fieldProductName1 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.fieldCategoryName1 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.fieldExtendedPrice1 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.fieldSalesPerson1 = new DevExpress.XtraPivotGrid.PivotGridField();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,102 +63,121 @@
             this.pivotGridControl1.DataSource = this.excelDataSource1;
             this.pivotGridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControl1.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
-            this.fieldCountry,
-            this.fieldProductName,
-            this.fieldCategoryName,
-            this.fieldExtendedPrice,
-            this.fieldSalesPerson});
+            this.fieldCountry1,
+            this.fieldProductName1,
+            this.fieldCategoryName1,
+            this.fieldExtendedPrice1,
+            this.fieldSalesPerson1});
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
+            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized;
             this.pivotGridControl1.Size = new System.Drawing.Size(758, 431);
             this.pivotGridControl1.TabIndex = 0;
-            // 
-            // fieldCountry
-            // 
-            this.fieldCountry.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
-            this.fieldCountry.AreaIndex = 0;
-            this.fieldCountry.Caption = "Country";
-            this.fieldCountry.FieldName = "Country";
-            this.fieldCountry.Name = "fieldCountry";
-            // 
-            // fieldProductName
-            // 
-            this.fieldProductName.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
-            this.fieldProductName.AreaIndex = 1;
-            this.fieldProductName.Caption = "Product Name";
-            this.fieldProductName.FieldName = "ProductName";
-            this.fieldProductName.Name = "fieldProductName";
-            // 
-            // fieldCategoryName
-            // 
-            this.fieldCategoryName.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
-            this.fieldCategoryName.AreaIndex = 0;
-            this.fieldCategoryName.Caption = "Category Name";
-            this.fieldCategoryName.FieldName = "CategoryName";
-            this.fieldCategoryName.Name = "fieldCategoryName";
-            // 
-            // fieldExtendedPrice
-            // 
-            this.fieldExtendedPrice.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
-            this.fieldExtendedPrice.AreaIndex = 0;
-            this.fieldExtendedPrice.Caption = "Extended Price";
-            this.fieldExtendedPrice.FieldName = "Extended Price";
-            this.fieldExtendedPrice.Name = "fieldExtendedPrice";
-            // 
-            // fieldSalesPerson
-            // 
-            this.fieldSalesPerson.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
-            this.fieldSalesPerson.AreaIndex = 1;
-            this.fieldSalesPerson.Caption = "Sales Person";
-            this.fieldSalesPerson.FieldName = "Sales Person";
-            this.fieldSalesPerson.Name = "fieldSalesPerson";
             // 
             // excelDataSource1
             // 
             this.excelDataSource1.FileName = "C:\\Data\\SalesPerson.xlsx";
             this.excelDataSource1.Name = "excelDataSource1";
             this.excelDataSource1.ResultSchemaSerializable = resources.GetString("excelDataSource1.ResultSchemaSerializable");
-            fieldInfo13.Name = "CategoryName";
-            fieldInfo13.Type = typeof(string);
-            fieldInfo14.Name = "Country";
-            fieldInfo14.Type = typeof(string);
-            fieldInfo15.Name = "FirstName";
-            fieldInfo15.Type = typeof(string);
-            fieldInfo16.Name = "LastName";
-            fieldInfo16.Type = typeof(string);
-            fieldInfo17.Name = "ProductName";
-            fieldInfo17.Type = typeof(string);
-            fieldInfo18.Name = "Sales Person";
-            fieldInfo18.Type = typeof(string);
-            fieldInfo19.Name = "OrderDate";
-            fieldInfo19.Type = typeof(System.DateTime);
-            fieldInfo20.Name = "OrderID";
-            fieldInfo20.Type = typeof(double);
-            fieldInfo21.Name = "Quantity";
-            fieldInfo21.Type = typeof(double);
-            fieldInfo22.Name = "Discount";
-            fieldInfo22.Type = typeof(double);
-            fieldInfo23.Name = "Extended Price";
-            fieldInfo23.Type = typeof(double);
-            fieldInfo24.Name = "UnitPrice";
-            fieldInfo24.Type = typeof(double);
+            fieldInfo1.Name = "CategoryName";
+            fieldInfo1.OriginalName = null;
+            fieldInfo1.Type = typeof(string);
+            fieldInfo2.Name = "Country";
+            fieldInfo2.OriginalName = null;
+            fieldInfo2.Type = typeof(string);
+            fieldInfo3.Name = "FirstName";
+            fieldInfo3.OriginalName = null;
+            fieldInfo3.Type = typeof(string);
+            fieldInfo4.Name = "LastName";
+            fieldInfo4.OriginalName = null;
+            fieldInfo4.Type = typeof(string);
+            fieldInfo5.Name = "ProductName";
+            fieldInfo5.OriginalName = null;
+            fieldInfo5.Type = typeof(string);
+            fieldInfo6.Name = "Sales Person";
+            fieldInfo6.OriginalName = null;
+            fieldInfo6.Type = typeof(string);
+            fieldInfo7.Name = "OrderDate";
+            fieldInfo7.OriginalName = null;
+            fieldInfo7.Type = typeof(System.DateTime);
+            fieldInfo8.Name = "OrderID";
+            fieldInfo8.OriginalName = null;
+            fieldInfo8.Type = typeof(double);
+            fieldInfo9.Name = "Quantity";
+            fieldInfo9.OriginalName = null;
+            fieldInfo9.Type = typeof(double);
+            fieldInfo10.Name = "Discount";
+            fieldInfo10.OriginalName = null;
+            fieldInfo10.Type = typeof(double);
+            fieldInfo11.Name = "Extended Price";
+            fieldInfo11.OriginalName = null;
+            fieldInfo11.Type = typeof(double);
+            fieldInfo12.Name = "UnitPrice";
+            fieldInfo12.OriginalName = null;
+            fieldInfo12.Type = typeof(double);
             this.excelDataSource1.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
-            fieldInfo13,
-            fieldInfo14,
-            fieldInfo15,
-            fieldInfo16,
-            fieldInfo17,
-            fieldInfo18,
-            fieldInfo19,
-            fieldInfo20,
-            fieldInfo21,
-            fieldInfo22,
-            fieldInfo23,
-            fieldInfo24});
-            excelWorksheetSettings2.CellRange = null;
-            excelWorksheetSettings2.WorksheetName = "Data";
-            excelSourceOptions2.ImportSettings = excelWorksheetSettings2;
-            this.excelDataSource1.SourceOptions = excelSourceOptions2;
+            fieldInfo1,
+            fieldInfo2,
+            fieldInfo3,
+            fieldInfo4,
+            fieldInfo5,
+            fieldInfo6,
+            fieldInfo7,
+            fieldInfo8,
+            fieldInfo9,
+            fieldInfo10,
+            fieldInfo11,
+            fieldInfo12});
+            excelWorksheetSettings1.CellRange = null;
+            excelWorksheetSettings1.WorksheetIndex = null;
+            excelWorksheetSettings1.WorksheetName = "Data";
+            excelSourceOptions1.ImportSettings = excelWorksheetSettings1;
+            this.excelDataSource1.SourceOptions = excelSourceOptions1;
+            // 
+            // fieldCountry1
+            // 
+            this.fieldCountry1.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.fieldCountry1.AreaIndex = 0;
+            this.fieldCountry1.Caption = "Country";
+            dataSourceColumnBinding1.ColumnName = "Country";
+            this.fieldCountry1.DataBinding = dataSourceColumnBinding1;
+            this.fieldCountry1.Name = "fieldCountry1";
+            // 
+            // fieldProductName1
+            // 
+            this.fieldProductName1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.fieldProductName1.AreaIndex = 1;
+            this.fieldProductName1.Caption = "Product Name";
+            dataSourceColumnBinding2.ColumnName = "ProductName";
+            this.fieldProductName1.DataBinding = dataSourceColumnBinding2;
+            this.fieldProductName1.Name = "fieldProductName1";
+            // 
+            // fieldCategoryName1
+            // 
+            this.fieldCategoryName1.Area = DevExpress.XtraPivotGrid.PivotArea.RowArea;
+            this.fieldCategoryName1.AreaIndex = 0;
+            this.fieldCategoryName1.Caption = "Category Name";
+            dataSourceColumnBinding3.ColumnName = "CategoryName";
+            this.fieldCategoryName1.DataBinding = dataSourceColumnBinding3;
+            this.fieldCategoryName1.Name = "fieldCategoryName1";
+            // 
+            // fieldExtendedPrice1
+            // 
+            this.fieldExtendedPrice1.Area = DevExpress.XtraPivotGrid.PivotArea.DataArea;
+            this.fieldExtendedPrice1.AreaIndex = 0;
+            this.fieldExtendedPrice1.Caption = "Extended Price";
+            dataSourceColumnBinding4.ColumnName = "Extended Price";
+            this.fieldExtendedPrice1.DataBinding = dataSourceColumnBinding4;
+            this.fieldExtendedPrice1.Name = "fieldExtendedPrice1";
+            // 
+            // fieldSalesPerson1
+            // 
+            this.fieldSalesPerson1.Area = DevExpress.XtraPivotGrid.PivotArea.ColumnArea;
+            this.fieldSalesPerson1.AreaIndex = 1;
+            this.fieldSalesPerson1.Caption = "Sales Person";
+            dataSourceColumnBinding5.ColumnName = "Sales Person";
+            this.fieldSalesPerson1.DataBinding = dataSourceColumnBinding5;
+            this.fieldSalesPerson1.Name = "fieldSalesPerson1";
             // 
             // Form1
             // 
@@ -172,11 +196,11 @@
         #endregion
 
         private DevExpress.XtraPivotGrid.PivotGridControl pivotGridControl1;
-        private DevExpress.XtraPivotGrid.PivotGridField fieldCountry;
-        private DevExpress.XtraPivotGrid.PivotGridField fieldProductName;
-        private DevExpress.XtraPivotGrid.PivotGridField fieldCategoryName;
-        private DevExpress.XtraPivotGrid.PivotGridField fieldExtendedPrice;
-        private DevExpress.XtraPivotGrid.PivotGridField fieldSalesPerson;
+        private DevExpress.XtraPivotGrid.PivotGridField fieldCountry1;
+        private DevExpress.XtraPivotGrid.PivotGridField fieldProductName1;
+        private DevExpress.XtraPivotGrid.PivotGridField fieldCategoryName1;
+        private DevExpress.XtraPivotGrid.PivotGridField fieldExtendedPrice1;
+        private DevExpress.XtraPivotGrid.PivotGridField fieldSalesPerson1;
         private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource1;
     }
 }
