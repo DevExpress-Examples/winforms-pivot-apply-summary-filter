@@ -4,17 +4,12 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/XtraPivotGrid_ApplySummaryFilter/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_ApplySummaryFilter/Form1.vb))
-<!-- default file list end -->
+# Pivot Grid for WinForms - Apply Summary Filter
 
-# How to Apply Summary Filter
+This example demonstrates how to apply a summary filter to a specific aggregation level.
 
-
-This example demonstrates how to apply a summary filter to a particular aggregation level.
-
-The PivotGridControl displays product sales by country. The summary filter is applied to country totals calculated for individual products to display values in the range from 500 to 2500. The filter applies to an aggregation level identified by the fieldProductName and fieldCountry fields.
+The Pivot Grid displays product sales by country. The summary filter is applied to country totals calculated for individual products to display values in the range from 500 to 2500. The filter applies to a specific detail level identified by the _Product Name_ and _Country_ fields.
 
 ![screenshot](./images/screenshot.png)
 
@@ -26,7 +21,17 @@ API in this example:
 * [PivotSummaryFilter.RowField](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotSummaryFilter.RowField)
 * [PivotSummaryFilter.ColumnField](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotSummaryFilter.ColumnField)
 
-See also:
+## Files to Review
 
-* [Summaries](https://docs.devexpress.com/WindowsForms/9384)
-* [Aggregation Levels](https://docs.devexpress.com/WindowsForms/11729)
+* [Form1.cs](./CS/XtraPivotGrid_ApplySummaryFilter/Form1.cs) (VB: [Form1.vb](./VB/XtraPivotGrid_ApplySummaryFilter/Form1.vb))
+
+## Documentation
+
+- [Filter by Summaries](https://docs.devexpress.com/WindowsForms/11545/controls-and-libraries/pivot-grid/data-shaping/filtering/filter-by-summaries)
+- [Summaries](https://docs.devexpress.com/WindowsForms/9384)
+- [Levels of Details](https://docs.devexpress.com/WindowsForms/1796/controls-and-libraries/pivot-grid/fundamentals/hierarchical-value-presentation#use-resulting-detail-levels)
+
+## More Examples 
+
+- [Pivot Grid for WinForms - Apply Summary Filter in OLAP mode](https://github.com/DevExpress-Examples/how-to-implement-sorting-by-summary-in-olap-mode-e3023)
+- [Pivot Grid for WinForms -Implement Group Filter](https://github.com/DevExpress-Examples/how-to-implement-group-filter-for-a-pivotgridcontrol-e4581)
