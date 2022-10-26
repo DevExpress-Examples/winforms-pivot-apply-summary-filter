@@ -7,7 +7,7 @@
 
 # Pivot Grid for WinForms - Apply Summary Filter
 
-This example demonstrates how to apply a summary filter to a specific aggregation level.
+This example demonstrates how to apply a summary filter to a specific detail level.
 
 The Pivot Grid displays product sales by country. The summary filter is applied to country totals calculated for individual products to display values in the range from 500 to 2500. The filter applies to a specific detail level identified by the _Product Name_ and _Country_ fields.
 
